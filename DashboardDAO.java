@@ -44,3 +44,5 @@ public class DashboardDAO {
         return ((double) occupied / total) * 100;
     }
 }
+
+//update
