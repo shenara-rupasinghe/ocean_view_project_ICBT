@@ -27,12 +27,9 @@ public class StaffDAO {
             return false;
         }
     }
-    /**
-     * TDD Implementation: Phase 3 (REFACTOR)
-     * Optimizing the bonus logic with defensive checks for salary parameters.
-     */
+   
     public double calculateBonus(double salary, double bonusPercent) {
-        // Refactoring: Validating inputs for business logic integrity
+        
         if (salary <= 0 || bonusPercent < 0 || bonusPercent > 100) {
             return 0.0;
         }
