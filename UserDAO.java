@@ -10,7 +10,9 @@ public class UserDAO {
 
     private static final Logger LOGGER = Logger.getLogger(UserDAO.class.getName());
 
-    // 1. Authenticate User (Login)
+   
+
+   //updated
     public Map<String, String> authenticateUser(String username, String password) {
         Map<String, String> userData = null;
         String sql = "SELECT full_name, role FROM users WHERE username = ? AND password = ?";
